@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-    <h1>{{msg}}</h1>
-    <h2>This is it baby</h2>
+    <h1>Textbook Recommendation Engine</h1>
+    <router-view></router-view>
   </div>
 </template>
 
-<script>
-export default {
-  name: "app",
-  data() {
-    return {
-      msg: "This is the message!"
-    }
-  }
-}
-</script>
-
 <style>
+body {
+  box-sizing: border-box;
+  background-image: url("/dist/book-stack.jpg");
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5vw;
+  margin: 0;
+  text-align: center;
+}
+
 #app {
-  color: #42b983;
+  color: #fff;
 }
 </style>
