@@ -9,7 +9,6 @@ import Home from "./Home.vue"
 import "../res/book-stack.jpg"
 
 Vue.use(Router)
-Vue.use(VueRating)
 
 const routes = [
   { path: "/", component: Home },

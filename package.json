@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/omginbd/TRE#readme",
   "dependencies": {
+    "lorem-ipsum": "^1.0.4",
     "node-random-name": "^1.0.1",
     "vue": "^2.5.8",
     "vue-router": "^3.0.1"
