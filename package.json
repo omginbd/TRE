@@ -4,9 +4,9 @@
   "description": "Textbook Recommendation Engine",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules && cp index.html dist/index.html",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "start": "cross-env NODE_ENV=production node index.js",
+    "build": "NODE_ENV=production webpack --progress --hide-modules && mkdir -p dist && cp index.html dist/index.html && tree",
+    "dev": "NODE_ENV=development webpack-dev-server --open --hot",
+    "start": "NODE_ENV=production node index.js",
     "test": "echo \"No Tests\""
   },
   "repository": {
@@ -33,7 +33,6 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-3": "^6.24.1",
-    "cross-env": "^5.1.1",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.5",
     "friendly-errors-webpack-plugin": "^1.6.1",
