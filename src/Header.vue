@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="wrapper">
-      <router-link to="/"><img src="/res/img/tre-logo.png" /></router-link>
+      <router-link to="/"><img src="tre-logo.png" /></router-link>
     </div>
     The Textbook Recommendation Engine
     <hr />
