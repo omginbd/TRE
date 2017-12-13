@@ -1,5 +1,5 @@
 .DS_store
-dist/
+#dist/
 
 # Logs
 logs
