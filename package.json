@@ -4,7 +4,7 @@
   "description": "Textbook Recommendation Engine",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules && mkdir -p dist && cp index.html dist/index.html",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules && cp index.html dist/index.html",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "start": "cross-env NODE_ENV=production node index.js",
     "test": "echo \"No Tests\""
