@@ -25,6 +25,10 @@ module.exports = {
         exclude: /node_modules/
       },
       {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        loader: "file-loader"
+      },
+      {
         test: /\.(png|jpg|gif|svg)$/,
         loader: "file-loader",
         options: {
