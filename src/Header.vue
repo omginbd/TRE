@@ -1,10 +1,10 @@
 <template>
-  <div class="wrapper">
-    <router-link to="/"><img src="/res/tre-logo.png" /></router-link>
-    <div class="login-buttons">
-      <el-button>Login</el-button>
-      <el-button>Sign Up</el-button>
+  <div class="header">
+    <div class="wrapper">
+      <router-link to="/"><img src="/res/img/tre-logo.png" /></router-link>
     </div>
+    The Textbook Recommendation Engine
+    <hr />
   </div>
 </template>
 
@@ -20,9 +20,21 @@ h1 {
   text-align: center;
 }
 
+hr {
+  margin-top: 1em;
+}
+
+.login-buttons {
+  margin-left: 2.5em;
+}
+
 .wrapper {
   align-items: center;
   display: flex;
   flex-direction: row;
+}
+
+.wrapper img {
+  margin: 8px 0;
 }
 </style>

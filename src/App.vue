@@ -1,5 +1,5 @@
 <template>
-  <el-container>
+  <el-container class="app-container">
     <el-header class="header"><my-header /></el-header>
     <el-main class="main-wrapper">
       <router-view></router-view>
@@ -28,7 +28,20 @@ export default {
   padding: 0;
 }
 
+body {
+  background-color: #262626;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.app-container {
+  background-color: white;
+  max-width: 1000px;
+}
+
 .main-wrapper {
-  margin-top: 1em;
+  margin-top: 4em;
 }
 </style>

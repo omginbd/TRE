@@ -1,11 +1,3 @@
 <template>
-  <div class="footer">
-    test
-  </div>
+  <hr />
 </template>
-
-<style scoped>
-.footer {
-  background-color: darkgrey;
-}
-</style>
