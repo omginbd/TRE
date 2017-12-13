@@ -4,9 +4,9 @@
   "description": "Textbook Recommendation Engine",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules && cp index.html dist/index.html",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "start": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "start": "cross-env NODE_ENV=production node index.js",
     "test": "echo \"No Tests\""
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/omginbd/TRE#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "lorem-ipsum": "^1.0.4",
     "node-random-name": "^1.0.1",
     "vue": "^2.5.8",
