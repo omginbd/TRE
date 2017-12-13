@@ -68,7 +68,7 @@
 </template>
 
 <script>
-import faker from "faker"
+import randomName from "node-random-name"
 import lorem from "lorem-ipsum"
 
 export default {
@@ -86,7 +86,7 @@ export default {
       for (let i = 0; i < Math.floor(Math.random() * 50); i++) {
         fakeReviews.push({
           id: i,
-          name: faker.name.findName(),
+          name: randomName(),
           comment: lorem({ count: 3, units: "sentences" }),
           required: Math.random() > 0.5 ? true : false,
           classwork: Math.random() > 0.5 ? true : false,
