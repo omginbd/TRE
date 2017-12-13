@@ -101,7 +101,7 @@ export default {
       required: Math.random() > 0.5 ? true : false,
       classwork: Math.random() > 0.5 ? true : false,
       test: Math.random() > 0.5 ? true : false,
-      author: faker.name.findName(),
+      author: randomName(),
       score: Math.floor(Math.random() * 100),
       dialogVisible: false,
       reviewForm: {
