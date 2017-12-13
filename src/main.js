@@ -9,7 +9,7 @@ import Book from "./Book.vue"
 import BookView from "./BookView.vue"
 import Course from "./Course.vue"
 import Home from "./Home.vue"
-import "../res/book-stack.jpg"
+import "../res/tre-logo.png"
 
 Vue.use(Router)
 Vue.use(ElementUI)

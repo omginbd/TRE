@@ -1,8 +1,16 @@
 <template>
   <div class="wrapper">
-    <h1>Textbook Recommendation Engine</h1>
+    <router-link to="/"><img src="/res/tre-logo.png" /></router-link>
+    <div class="login-buttons">
+      <el-button>Login</el-button>
+      <el-button>Sign Up</el-button>
+    </div>
   </div>
 </template>
+
+<script>
+export default {}
+</script>
 
 <style scoped>
 h1 {
@@ -15,6 +23,6 @@ h1 {
 .wrapper {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 </style>
