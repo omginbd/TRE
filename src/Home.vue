@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <h2>Enter your information to see if </h2>
+    <h2>Find Your Textbook:</h2>
     <div class="searchWrapper">
       <el-form>
         <el-form-item label="Textbook Name">
